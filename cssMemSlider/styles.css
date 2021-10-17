@@ -21,7 +21,7 @@ body {
 img{
     width: 70vw;
     height:calc(70vw/2);
-    border-radius: 10px ;
+    border-radius: 0.6rem ;
 }
 
 #image-container {
@@ -105,10 +105,10 @@ img{
 .wrapper label {
 	cursor: pointer;
 	display: inline-block;
-	height: 8px;
-	margin: 10px 12px 0 16px;
+	height: 0.5rem;
+	margin: 0.6rem 0.75rem 0 1rem;
 	position: relative;
-	width: 8px;
+	width: 0.5rem;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
@@ -136,14 +136,14 @@ img{
 }
 
 .wrapper label:after {
-	border: 2px solid #ddd;
+	border: 0.125rem solid #ddd;
 	content: " ";
 	display: block;
-	height: 12px;
-	left: -4px;
+	height: 0.75rem;
+	left: -0.25rem;
 	position: relative;
-	top: -4px;
-	width: 12px;
+	top: -0.25rem;
+	width: 0.75rem;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
